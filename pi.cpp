@@ -16,7 +16,7 @@ int main() {
 		for(int i = 0; i <= n; i++) {
 			sum += pow(-1, i) / (2.0 * i  + 1);
 		}
-		cout << "The approximate value of pi using " << n << " terms is: " << (4 * sum) << endl;
+		cout << "The approximate value of pi using " << n+1 << " terms is: " << (4 * sum) << endl;
 	}
 	return 0;
 }
