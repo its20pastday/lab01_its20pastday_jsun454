@@ -5,7 +5,7 @@ using namespace std;
 int main(int argc, char *argv[]){
 	if (argc == 1) {
 		cerr << "Usage: ./min4 num1 num2 num3 num4" << endl;
-		cerr << "Prints smallest of the four numbers" << endl;
+		cerr << " Prints smallest of the four numbers" << endl;
 		return -1;
 	}
 
